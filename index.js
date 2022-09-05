@@ -7,3 +7,6 @@ function loveCalculator(yourNAme, partnersName){
     }
     let yourName = prompt("Please enter your name: ")
     let partnersName = prompt("Please enter partners name: ")
+
+    let loveMeter = loveCalculator (yourName, partnersName)
+    alert("Your compatibility ratio is " + loveMeter + "%")
