@@ -1,3 +1,7 @@
+let yourName = prompt("Please enter your name: ")
+let partnersName = prompt("Please enter partners name: ")
+
+
 function loveCalculator(yourNAme, partnersName){
 
     let loveCalc = Math.random()
@@ -5,8 +9,6 @@ function loveCalculator(yourNAme, partnersName){
     return loveCalc
   
     }
-    let yourName = prompt("Please enter your name: ")
-    let partnersName = prompt("Please enter partners name: ")
-
+   
     let loveMeter = loveCalculator (yourName, partnersName)
     alert("Your compatibility ratio is " + loveMeter + "%")
