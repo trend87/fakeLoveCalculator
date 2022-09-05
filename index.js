@@ -5,4 +5,5 @@ function loveCalculator(yourNAme, partnersName){
     return loveCalc
   
     }
-  
+    let yourName = prompt("Please enter your name: ")
+    let partnersName = prompt("Please enter partners name: ")
